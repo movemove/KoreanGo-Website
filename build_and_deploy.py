@@ -393,6 +393,98 @@ CONTENT = {
         "footer_rights": "© 2026 AE Interactive. All rights reserved.",
         "studio_link_label": "AE Interactive スタジオ",
     },
+    "es": {
+        "html_lang": "es",
+        "title": "KoreanGo — Coreano de Viaje, 100 Vídeos Reales, Práctica Oral y Traducción",
+        "desc": "Aprende coreano práctico para viajar a Seúl con 40 Hangul Jamo con trazos, 24 pares mínimos, 100 vídeos reales en Corea, Práctica Oral en 12 escenarios e Intérprete en Vivo.",
+        "keywords": "KoreanGo,coreano viaje,hangul,corea,seul,pares minimos coreano,traductor coreano voz,AE Interactive",
+        "nav_privacy": "Privacidad",
+        "nav_support": "Soporte",
+        "nav_download": "Descargar" if APP_STORE_URL else "Ver Planes",
+        "hero_badge": "15 LECCIONES · 100 VÍDEOS EN SEÚL · TRADUCCIÓN EN VIVO · SIN ANUNCIOS",
+        "hero_title": "Habla Coreano Real<br><span>Antes de Aterrizar en Seúl</span>",
+        "hero_sub": "Desde las 40 letras Hangul con trazos y 24 pares mínimos hasta 100 vídeos reales en Corea, Práctica Oral guiada en 12 escenarios e Intérprete Bidireccional en Vivo—sin cuentas ni rastreo.",
+        "status_pill": (
+            "Disponible en App Store · Gratis para empezar · iPhone & iPad"
+            if APP_STORE_URL
+            else "App nativa iPhone & iPad · iOS 17+ · Empieza gratis sin cuenta"
+        ),
+        "cta_store_sub": "Descárgalo gratis en",
+        "cta_store_main": "App Store",
+        "cta_coming_main": "En Revisión App Store",
+        "cta_audio": "▶ Escuchar Audio Real",
+        "cta_screens": "Ver Capturas ↓",
+        "cta_plans": "Ver Plan Gratis y Pro ($3.99) ↓",
+        "sec_audio_badge": "AUDIO DE ESTUDIO REAL · ROMANIZACIÓN E IPA CLAROS",
+        "sec_audio_title": "Escucha Coreano Real Antes de Tu Viaje",
+        "sec_audio_sub": "Audios MP3 incluidos dentro de KoreanGo (693 grabaciones en total) para dominar consonantes tensas (ㄸ) y ligaduras de Seúl.",
+        "btn_play": "Reproducir",
+        "btn_playing": "Sonando",
+        "sec_screens_badge": "CAPTURAS REALES DE LA APP · IPHONE 6.9\" E IPAD 13\"",
+        "sec_screens_title": "Diseñada para Leer Cómodo a Una Mano",
+        "sec_screens_sub": "Diseñada para leer rápido en cafeterías o en el metro de Seúl, con tamaño de letra Normal / Grande / Extra e iPad 13\" adaptado.",
+        "screens_labels": [
+            "Ruta de 15 Lecciones",
+            "Práctica en 12 Escenarios",
+            "Intérprete en Vivo",
+            "100 Vídeos en Corea",
+            "40 Hangul y Pares",
+            "Pantalla iPad 13\"",
+        ],
+        "sec_features_badge": "SEIS MÓDULOS INTEGRADOS",
+        "sec_features_title": "Todo en Una App Privada y Lista Sin Internet",
+        "features": [
+            ("📚", "15 Unidades Prácticas y 18 Ejercicios", "Domina las 40 letras Hangul y sus consonantes finales hasta pedir en barbacoas, tiendas Tax-Free, metro Línea 2, hoteles y emergencias."),
+            ("🎬", "100 Vídeos de Diálogos Reales en Seúl", "Organizados en 5 categorías reales de viaje con 200 audios de estudio, subtítulos bilingües, romanización revisada e IPA."),
+            ("💬", "Práctica Oral Guiada en 12 Escenarios", "Tu interlocutor inicia la conversación y mantiene tus tarjetas de ayuda visibles mientras hablas para completar cada misión."),
+            ("🗣️", "Intérprete Bidireccional en Vivo", "Habla o escribe en Español, Inglés, Japonés o Chino al instante con coreano, con lectura automática y tarjeta a pantalla completa."),
+            ("✍️", "40 Hangul, 24 Pares Mínimos y 160 Tarjetas SRS", "Lienzo de trazos letra a letra, test auditivos a ciegas entre suave/aspirada/tensa, 693 grabaciones y tamaño de fuente ajustable."),
+            ("🔒", "Sin Registro · Privacidad Total en el Dispositivo", "Sin cuentas, sin anuncios ni SDKs de rastreo (NSPrivacyTracking = false). Todo tu avance permanece exclusivamente en tu dispositivo."),
+        ],
+        "sec_pricing_badge": "SIN SUSCRIPCIONES · EMPIEZA GRATIS",
+        "sec_pricing_title": "Gratis para Empezar. $3.99 Pago Único.",
+        "sec_pricing_sub": "Empieza gratis con Hangul, 24 pares mínimos y 160 tarjetas, y desbloquea los 100 vídeos e intérprete ilimitado cuando quieras con un único pago.",
+        "free_tier_tag": "KOREANGO GRATIS",
+        "free_tier_title": "Gratis para Siempre",
+        "free_tier_price": "$0",
+        "free_tier_items": [
+            "Las 40 letras Hangul y lienzo interactivo de trazos",
+            "Los 24 pares mínimos (suave / aspirada / tensa y batchim)",
+            "Las 160 tarjetas SM-2 y los 4 modos de test interactivo",
+            "Unidades 1–3 + 10 vídeos reales + cuota diaria de voz (5/día) e intérprete (8/día)",
+        ],
+        "pro_tier_badge": "PAGO ÚNICO · SIN SUSCRIPCIÓN",
+        "pro_tier_title": "KoreanGo Pro De Por Vida",
+        "pro_tier_price": "$3.99",
+        "pro_tier_items": [
+            "Las 15 unidades guiadas de viaje (4–15 desbloqueadas)",
+            "Los 100 vídeos de diálogo real en Corea y 200 audios nativos",
+            "Práctica Oral ilimitada en 12 escenarios + charla libre",
+            "Intérprete Bidireccional en Vivo sin límites (con modo offline)",
+        ],
+        "bottom_cta_title": "Aterriza en Incheon Listo para Hablar Coreano",
+        "bottom_cta_sub": "Creada para iPhone e iPad — aprende a tu ritmo sin cuenta y sin suscripciones.",
+        "appstore_btn_label": "Descargar gratis en App Store" if APP_STORE_URL else "Ver qué incluye gratis ↑",
+        "coming_soon_btn": "v1.0.0 Muy Pronto · Contacto",
+        "privacy_title": "Política de Privacidad — KoreanGo",
+        "privacy_updated": "Última actualización: 23 de noviembre de 2026",
+        "privacy_sections": [
+            ("1. Sin Cuenta y Sin Recopilación de Datos", "KoreanGo es desarrollada por AE Interactive (AppEngine Interactive). No exige registro de cuenta ni recopila, vende o envía datos personales a servidores propios (Etiqueta App Store: No se recopilan datos / NSPrivacyTracking = false). Todo tu avance de aprendizaje y preferencias locales se guardan únicamente en tu dispositivo mediante Apple UserDefaults (CA92.1)."),
+            ("2. Micrófono, Reconocimiento de Voz y Procesamiento Local", "El micrófono y el reconocimiento de voz (ko-KR) solo se solicitan cuando pulsas el botón de grabación en la Práctica Oral o el Intérprete en Vivo. La traducción y las respuestas se ejecutan en el dispositivo con marcos nativos de Apple."),
+            ("3. Sin Publicidad ni Rastreo", "KoreanGo no incluye redes publicitarias, analítica de terceros ni seguimiento entre apps."),
+            ("4. Contacto", "Para consultas de privacidad o soporte, escribe a help@appengine.fun."),
+        ],
+        "support_title": "Soporte y Compatibilidad — KoreanGo",
+        "support_sub": "Requisitos de Práctica Oral en el dispositivo, paquetes de traducción offline y contacto directo.",
+        "support_cards": [
+            ("Compatibilidad de la Práctica Oral", "Funciona localmente con el modelo de lenguaje del sistema de Apple en iPhone 15 Pro / Pro Max, iPhone 16 / 17 o posterior y iPad con M1 / A17 Pro+ con iOS / iPadOS 26.0+. En todos los iPhone/iPad compatibles con iOS 17+ sigue disponible la práctica guiada."),
+            ("100 Vídeos, 40 Hangul y 693 Audios en Cualquier Dispositivo", "Las 15 unidades, los 40 Hangul con trazos, 24 pares mínimos, 160 tarjetas SRS, 18 ejercicios de gramática y los 100 vídeos funcionan totalmente offline desde iOS 17.0 sin cuenta."),
+            ("Paquete Offline de Coreano en iOS", "El Intérprete Bidireccional en Vivo usa Apple Translation. Antes de viajar, ve a Ajustes de iOS → Apps → Traducir y descarga Español ⇄ Coreano para traducir sin cobertura."),
+            ("Soporte Directo", "¿Dudas, sugerencias o errores? Escríbenos a help@appengine.fun y respondemos habitualmente en menos de 24 horas."),
+        ],
+        "footer_rights": "© 2026 AE Interactive. Todos los derechos reservados.",
+        "studio_link_label": "Estudio AE Interactive",
+    },
 }
 
 AUDIO_ITEMS = [
@@ -406,12 +498,14 @@ AUDIO_ITEMS = [
             "zh-Hant": "請問兩個人分開結帳可以嗎？",
             "zh-Hans": "请问两个人分开结账可以吗？",
             "ja": "2人別々にお会計してもいいですか？",
+            "es": "¿Podemos pagar los dos por separado?",
         },
         "tag": {
             "en": "Dining · Tense Consonant tt (따)",
             "zh-Hant": "餐廳分帳 · 緊音 ㄸ (따로)",
             "zh-Hans": "餐厅分账 · 紧音 ㄸ (따로)",
             "ja": "レストラン · 濃音 ㄸ (따로)",
+            "es": "Restaurante · Consonante tensa ㄸ",
         },
     },
     {
@@ -424,12 +518,14 @@ AUDIO_ITEMS = [
             "zh-Hant": "請問在哪一站轉乘二號線呢？",
             "zh-Hans": "请问在哪一站换乘二号线呢？",
             "ja": "どの駅で2号線に乗り換えますか？",
+            "es": "¿En qué estación hago transbordo a la línea 2?",
         },
         "tag": {
             "en": "Seoul Metro · Liaison ㄹ -> r",
             "zh-Hant": "首爾地鐵 · 連音變化 갈아타요",
             "zh-Hans": "首尔地铁 · 连音变化 갈아타요",
             "ja": "ソウル地下鉄 · 連音化 갈아타요",
+            "es": "Metro de Seúl · Ligadura ㄹ -> r",
         },
     },
     {
@@ -442,12 +538,14 @@ AUDIO_ITEMS = [
             "zh-Hant": "請問退房時間是幾點？",
             "zh-Hans": "请问退房时间是几点？",
             "ja": "チェックアウトは何時ですか？",
+            "es": "¿A qué hora es el check-out?",
         },
         "tag": {
             "en": "Hotel Desk · Time Counter & Tensification",
             "zh-Hant": "飯店櫃檯 · 時間說法與音變",
             "zh-Hans": "酒店前台 · 时间问法与音变",
             "ja": "ホテル受付 · 時刻表現＆濃音化",
+            "es": "Recepción · Horas y tensificación",
         },
     },
     {
@@ -460,12 +558,14 @@ AUDIO_ITEMS = [
             "zh-Hant": "麻煩請再說慢一點點。",
             "zh-Hans": "麻烦请再说慢一点点。",
             "ja": "もう少しゆっくり話してください。",
+            "es": "Por favor, hable un poco más despacio.",
         },
         "tag": {
             "en": "Polite Rescue · Soft Medial ㅎ",
             "zh-Hant": "禮貌必備句 · 弱化音 ㅎ",
             "zh-Hans": "礼貌救援句 · 弱化音 ㅎ",
             "ja": "必須フレーズ · 弱音化 ㅎ",
+            "es": "Frase clave · Debilitación de ㅎ",
         },
     },
 ]
@@ -688,7 +788,7 @@ def appstore_badge_svg() -> str:
 
 
 def nav_html(lang: str, route: str, t: dict) -> str:
-    langs = [("en", "EN"), ("zh-Hant", "繁中"), ("zh-Hans", "简中"), ("ja", "日本語")]
+    langs = [("en", "EN"), ("zh-Hant", "繁中"), ("zh-Hans", "简中"), ("ja", "日本語"), ("es", "ES")]
     lang_links = []
     for code, label in langs:
         cls = ' class="active"' if code == lang else ""
@@ -1075,6 +1175,7 @@ def main() -> None:
   <url><loc>{ORIGIN}/?lang=zh-Hant</loc><priority>0.9</priority></url>
   <url><loc>{ORIGIN}/?lang=zh-Hans</loc><priority>0.9</priority></url>
   <url><loc>{ORIGIN}/?lang=ja</loc><priority>0.9</priority></url>
+  <url><loc>{ORIGIN}/?lang=es</loc><priority>0.9</priority></url>
   <url><loc>{ORIGIN}/privacy</loc><priority>0.7</priority></url>
   <url><loc>{ORIGIN}/support</loc><priority>0.7</priority></url>
 </urlset>"""
@@ -1102,10 +1203,12 @@ function resolveLang(request) {{
   if (q === "zh-TW" || q === "tw" || q === "hk") return "zh-Hant";
   if (q === "zh-CN" || q === "cn" || q === "zh") return "zh-Hans";
   if (q === "jp" || q === "ja-JP") return "ja";
+  if (q === "es-ES" || q === "es-MX") return "es";
   const accept = (request.headers.get("accept-language") || "").toLowerCase();
   if (accept.includes("zh-tw") || accept.includes("zh-hk") || accept.includes("zh-hant")) return "zh-Hant";
   if (accept.includes("zh")) return "zh-Hans";
   if (accept.includes("ja")) return "ja";
+  if (accept.includes("es")) return "es";
   return "en";
 }}
 

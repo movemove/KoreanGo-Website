@@ -19,6 +19,7 @@ LANG_MAP = {
     "zh-Hant": "zh-Hant",
     "zh-Hans": "zh-Hans",
     "ja": "ja",
+    "es": "es-ES",
 }
 
 SCENES = [
