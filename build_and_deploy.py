@@ -310,7 +310,7 @@ CONTENT = {
         "nav_support": "サポート",
         "nav_download": "入手する" if APP_STORE_URL else "料金を見る",
         "hero_badge": "全15課 · ソウル実境会話動画100本 · 双方向通訳 · 広告ゼロ",
-        "hero_title": "仁川に着く前に、<span>そのまま使える韓国語を口に</span>",
+        "hero_title": "仁川に着く前に、<br><span>そのまま使える韓国語を口に</span>",
         "hero_sub": "ハングル40文字の書き順・平音/激音/濃音の聞き分け24組・ソウル実境動画100本から、12場面ロールプレイとリアルタイム双方向音声通訳まで。アカウント登録も広告も一切なし。",
         "status_pill": (
             "App Store 配信中 · 無料スタート · iPhone & iPad 対応"
@@ -600,7 +600,7 @@ h2 { font-size: clamp(22px, 3.6vw, 34px); font-weight: 850; letter-spacing: -0.6
 .audio-ko { font-size: 18px; font-weight: 800; margin-top: 6px; color: #fff; }
 .audio-roman { font-size: 13px; color: #67E8F9; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; margin-top: 4px; }
 .audio-roman b { background: rgba(251, 113, 133, 0.2); color: #FDA4AF; padding: 0 4px; border-radius: 4px; }
-.audio-ipa { font-size: 11.5px; color: #94A3B8; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; margin-top: 2px; }
+.audio-ipa { font-size: 12px; color: #94A3B8; font-family: "Charis SIL", "Doulos SIL", "Lucida Grande", "Segoe UI", "Arial Unicode MS", "DejaVu Sans", sans-serif; margin-top: 2px; letter-spacing: 0.2px; }
 .audio-meaning { font-size: 13px; color: var(--muted); margin-top: 5px; }
 .play-btn {
   align-self: flex-start; background: rgba(99,102,241,0.2); color: #C7D2FE; border: 1px solid rgba(99,102,241,0.4);
