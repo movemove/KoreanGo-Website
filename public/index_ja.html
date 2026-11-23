@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KoreanGo — 旅行韓国語・ソウル実境会話動画100本・音声練習・双方向通訳</title>
+<meta name="description" content="ハングル40文字の書き順と3系列聞き分け24組から、ソウル実境会話動画100本・12場面ロールプレイ・リアルタイム双方向音声通訳まで1つで完結。">
+<meta name="keywords" content="KoreanGo,旅行韓国語,ハングル,韓国語聞き分け,韓国旅行会話,リアルタイム韓国語翻訳,AE Interactive">
+<meta name="theme-color" content="#070913">
+<link rel="canonical" href="https://koreango.appengine.fun/?lang=ja">
+<link rel="alternate" hreflang="en" href="https://koreango.appengine.fun/?lang=en">
+<link rel="alternate" hreflang="zh-Hant" href="https://koreango.appengine.fun/?lang=zh-Hant">
+<link rel="alternate" hreflang="zh-Hans" href="https://koreango.appengine.fun/?lang=zh-Hans">
+<link rel="alternate" hreflang="ja" href="https://koreango.appengine.fun/?lang=ja">
+<link rel="alternate" hreflang="x-default" href="https://koreango.appengine.fun/">
+<link rel="icon" type="image/png" href="/images/icon.png">
+<link rel="apple-touch-icon" href="/images/icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="KoreanGo — 旅行韓国語・ソウル実境会話動画100本・音声練習・双方向通訳">
+<meta property="og:description" content="ハングル40文字の書き順と3系列聞き分け24組から、ソウル実境会話動画100本・12場面ロールプレイ・リアルタイム双方向音声通訳まで1つで完結。">
+<meta property="og:url" content="https://koreango.appengine.fun/?lang=ja">
+<meta property="og:image" content="https://koreango.appengine.fun/images/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://koreango.appengine.fun/images/og.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "KoreanGo Travel Korean", "operatingSystem": "iOS 17.0+, iPadOS 17.0+", "applicationCategory": "EducationApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "AE Interactive", "url": "https://appengine.fun"}}</script>
+<style>
+:root {
+  --bg: #070913;
+  --card: rgba(20, 24, 42, 0.86);
+  --card-solid: #14182a;
+  --border: rgba(255, 255, 255, 0.11);
+  --text: #F8FAFC;
+  --muted: #94A3B8;
+  --indigo: #6366F1;
+  --teal: #2DD4BF;
+  --coral: #FB7185;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Apple SD Gothic Neo", "PingFang TC", "PingFang SC", "Hiragino Sans", "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  overflow-x: hidden;
+  background-image:
+    radial-gradient(ellipse 80% 42% at 50% -5%, rgba(99, 102, 241, 0.24) 0%, transparent 70%),
+    radial-gradient(circle at 86% 18%, rgba(45, 212, 191, 0.14) 0%, transparent 45%);
+  background-repeat: no-repeat;
+}
+a { color: inherit; }
+header { position: sticky; top: 12px; z-index: 100; padding: 0 16px; }
+nav {
+  max-width: 980px; margin: 0 auto; padding: 10px 16px;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  background: rgba(11, 14, 28, 0.84);
+  backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border); border-radius: 999px;
+  box-shadow: 0 12px 34px rgba(0,0,0,0.45);
+}
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; font-size: 17px; letter-spacing: -0.3px; }
+.brand img { width: 34px; height: 34px; border-radius: 9px; border: 1px solid rgba(45, 212, 191, 0.45); }
+.nav-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.nav-links { display: flex; gap: 14px; font-size: 13px; font-weight: 600; color: var(--muted); }
+.nav-links a { text-decoration: none; transition: color .18s; }
+.nav-links a:hover, .nav-links a.active { color: #fff; }
+.lang-picker {
+  display: flex; align-items: center; gap: 4px;
+  background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.09);
+  padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 700;
+}
+.lang-picker a { color: var(--muted); text-decoration: none; padding: 2px 5px; border-radius: 99px; }
+.lang-picker a.active { color: var(--teal); background: rgba(45,212,191,0.14); }
+main { max-width: 980px; margin: 0 auto; padding: 36px 18px 64px; }
+.hero { text-align: center; padding: 20px 0 36px; }
+.badge {
+  display: inline-block; font-size: 11px; font-weight: 800; letter-spacing: 0.7px;
+  color: var(--teal); background: rgba(45,212,191,0.12);
+  border: 1px solid rgba(45,212,191,0.34); padding: 6px 14px; border-radius: 999px; margin-bottom: 16px;
+}
+h1 { font-size: clamp(30px, 5.4vw, 54px); font-weight: 900; letter-spacing: -1.1px; line-height: 1.12; margin-bottom: 14px; text-wrap: balance; }
+h1 span { background: linear-gradient(125deg, #818CF8 0%, #2DD4BF 62%, #FB7185 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.hero-sub { max-width: 680px; margin: 0 auto 22px; color: var(--muted); font-size: clamp(15px, 2vw, 18px); text-wrap: balance; }
+.status-pill {
+  display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 999px;
+  background: rgba(99,102,241,0.14); border: 1px solid rgba(99,102,241,0.38);
+  color: #C7D2FE; font-size: 13px; font-weight: 700; margin-bottom: 22px;
+}
+.hero-cta { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+.btn {
+  display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; border-radius: 999px;
+  font-size: 14px; font-weight: 700; text-decoration: none; border: 1px solid transparent; cursor: pointer;
+  transition: transform .16s ease, box-shadow .16s ease, background .16s ease;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn-primary { background: linear-gradient(135deg, #6366F1, #14B8A6); color: #fff; box-shadow: 0 10px 26px rgba(99,102,241,0.32); }
+.btn-ghost { background: rgba(255,255,255,0.06); border-color: var(--border); color: #E2E8F0; }
+.btn-appstore {
+  background: #fff; color: #090D16; border: 1px solid rgba(255,255,255,0.85);
+  padding: 9px 20px; gap: 10px; box-shadow: 0 12px 30px rgba(255,255,255,0.16), 0 8px 24px rgba(99,102,241,0.28);
+}
+.btn-appstore svg { width: 20px; height: 24px; fill: currentColor; flex-shrink: 0; }
+.btn-appstore .as-copy { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.12; text-align: left; }
+.btn-appstore .as-sub { font-size: 10px; font-weight: 700; opacity: 0.72; letter-spacing: 0.2px; }
+.btn-appstore .as-main { font-size: 15px; font-weight: 850; letter-spacing: -0.2px; }
+.nav-cta {
+  display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 999px;
+  background: linear-gradient(135deg, #6366F1, #14B8A6); color: #fff; text-decoration: none;
+  font-size: 12.5px; font-weight: 800; box-shadow: 0 4px 14px rgba(99,102,241,0.35);
+  transition: transform .16s ease, filter .16s ease;
+}
+.nav-cta:hover { transform: translateY(-1px); filter: brightness(1.08); }
+.pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 16px; }
+.price-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 22px; padding: 24px;
+  display: flex; flex-direction: column; justify-content: space-between; gap: 18px;
+}
+.price-card.pro {
+  border-color: rgba(45, 212, 191, 0.55);
+  background: linear-gradient(160deg, rgba(99,102,241,0.16), rgba(20,24,42,0.94) 45%, rgba(20,184,166,0.14));
+  box-shadow: 0 18px 40px rgba(0,0,0,0.42);
+}
+.price-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.price-tag { font-size: 11px; font-weight: 800; color: var(--teal); letter-spacing: 0.4px; margin-bottom: 4px; }
+.price-title { font-size: 20px; font-weight: 850; color: #fff; }
+.price-num { font-size: 26px; font-weight: 900; color: #fff; white-space: nowrap; }
+.price-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.price-list li { display: flex; gap: 9px; font-size: 14px; color: #CBD5E1; line-height: 1.45; }
+.price-list li span.chk { color: var(--teal); font-weight: 900; flex-shrink: 0; }
+.price-card .btn-appstore { justify-content: center; }
+.cta-banner {
+  margin-top: 56px; padding: 34px 24px; border-radius: 26px; text-align: center;
+  background: linear-gradient(135deg, rgba(99,102,241,0.22), rgba(20,184,166,0.18));
+  border: 1px solid rgba(45,212,191,0.35);
+  display: flex; flex-direction: column; align-items: center; gap: 14px;
+}
+.cta-banner img { width: 64px; height: 64px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.25); box-shadow: 0 10px 28px rgba(0,0,0,0.4); }
+.cta-banner h2 { margin-bottom: 0; }
+.cta-banner p { color: #CBD5E1; max-width: 540px; font-size: 15px; }
+section { margin-top: 56px; }
+.sec-head { text-align: center; margin-bottom: 24px; }
+.sec-head .badge { margin-bottom: 10px; }
+h2 { font-size: clamp(22px, 3.6vw, 34px); font-weight: 850; letter-spacing: -0.6px; margin-bottom: 8px; }
+.sec-sub { color: var(--muted); max-width: 620px; margin: 0 auto; font-size: 15px; }
+.audio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+.audio-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 16px;
+  display: flex; flex-direction: column; justify-content: space-between; gap: 12px;
+  transition: border-color .2s, transform .2s;
+}
+.audio-card.playing { border-color: var(--teal); box-shadow: 0 0 0 1px rgba(45,212,191,0.3), 0 14px 32px rgba(0,0,0,0.4); }
+.audio-tag { font-size: 11px; font-weight: 700; color: var(--teal); letter-spacing: 0.3px; }
+.audio-ko { font-size: 18px; font-weight: 800; margin-top: 6px; color: #fff; }
+.audio-roman { font-size: 13px; color: #67E8F9; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; margin-top: 4px; }
+.audio-roman b { background: rgba(251, 113, 133, 0.2); color: #FDA4AF; padding: 0 4px; border-radius: 4px; }
+.audio-ipa { font-size: 11.5px; color: #94A3B8; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; margin-top: 2px; }
+.audio-meaning { font-size: 13px; color: var(--muted); margin-top: 5px; }
+.play-btn {
+  align-self: flex-start; background: rgba(99,102,241,0.2); color: #C7D2FE; border: 1px solid rgba(99,102,241,0.4);
+  padding: 6px 14px; border-radius: 999px; font-size: 12.5px; font-weight: 700; cursor: pointer;
+}
+.audio-card.playing .play-btn { background: var(--teal); color: #042F2E; border-color: var(--teal); }
+.gallery-strip {
+  display: flex; gap: 16px; overflow-x: auto; padding: 8px 4px 16px; scroll-snap-type: x mandatory;
+}
+.shot-card {
+  flex: 0 0 230px; scroll-snap-align: start; background: var(--card); border: 1px solid var(--border);
+  border-radius: 20px; padding: 10px; text-align: center;
+}
+.shot-card.wide { flex: 0 0 340px; }
+.shot-card img { width: 100%; height: auto; border-radius: 14px; display: block; }
+.shot-cap { font-size: 12.5px; font-weight: 700; color: #CBD5E1; margin-top: 9px; }
+.bento { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+.bento-card { background: var(--card); border: 1px solid var(--border); border-radius: 20px; padding: 20px; }
+.bento-icon { font-size: 24px; margin-bottom: 10px; }
+.bento-card h3 { font-size: 17px; font-weight: 800; margin-bottom: 6px; color: #fff; }
+.bento-card p { font-size: 14px; color: var(--muted); }
+.doc-box { max-width: 780px; margin: 14px auto; background: var(--card); border: 1px solid var(--border); border-radius: 22px; padding: 28px; }
+.doc-box h1 { font-size: clamp(24px, 4vw, 36px); text-align: left; }
+.doc-item { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--border); }
+.doc-item h2 { font-size: 18px; margin-bottom: 6px; color: #E2E8F0; }
+.doc-item p { font-size: 14.5px; color: var(--muted); }
+footer {
+  max-width: 980px; margin: 36px auto 0; padding: 24px 18px 42px;
+  border-top: 1px solid var(--border);
+  display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;
+  color: var(--muted); font-size: 13px;
+}
+footer a { color: #CBD5E1; text-decoration: none; }
+footer a:hover { color: var(--teal); }
+@media (max-width: 680px) {
+  nav { border-radius: 22px; padding: 10px 14px; }
+  .nav-right { gap: 8px; }
+  .hero-cta .btn { width: 100%; justify-content: center; max-width: 300px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .btn, .audio-card { transition: none; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <nav aria-label="Main navigation">
+    <a class="brand" href="/?lang=ja">
+      <img src="/images/icon.webp" alt="KoreanGo Icon" width="34" height="34">
+      <span>KoreanGo</span>
+    </a>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="/privacy?lang=ja">プライバシー</a>
+        <a href="/support?lang=ja">サポート</a>
+      </div>
+      <div class="lang-picker" role="navigation" aria-label="Language"><a href="/?lang=en">EN</a><a href="/?lang=zh-Hant">繁中</a><a href="/?lang=zh-Hans">简中</a><a href="/?lang=ja" class="active">日本語</a></div>
+      <a class="nav-cta" href="/?lang=ja#pricing">料金を見る</a>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+    <div class="badge">全15課 · ソウル実境会話動画100本 · 双方向通訳 · 広告ゼロ</div>
+    <h1>仁川に着く前に、<span>そのまま使える韓国語を口に</span></h1>
+    <p class="hero-sub">ハングル40文字の書き順・平音/激音/濃音の聞き分け24組・ソウル実境動画100本から、12場面ロールプレイとリアルタイム双方向音声通訳まで。アカウント登録も広告も一切なし。</p>
+    <div class="status-pill"> iPhone &amp; iPad ネイティブ設計 · iOS 17+ · 基礎無料で体験</div>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#audio">▶ ネイティブ音声を試聴</a><a class="btn btn-ghost" href="#preview">画面プレビュー ↓</a><a class="btn btn-ghost" href="#pricing">無料プランと $3.99 Pro ↓</a>
+    </div>
+  </section>
+
+  <section id="audio">
+    <div class="sec-head">
+      <div class="badge">アプリ収録ネイティブ音声 · 発音変化＆ローマ字表記</div>
+      <h2>現地でそのまま聞こえるリアルな発音</h2>
+      <p class="sec-sub">KoreanGo に収録された693本のスタジオ音声から一部を試聴—濃音（ㄸ）や連音化（갈아타요）も自然に身につきます。</p>
+    </div>
+    <div class="audio-grid">
+        <article class="audio-card" id="card-0">
+          <div>
+            <div class="audio-tag">レストラン · 濃音 ㄸ (따로)</div>
+            <div class="audio-ko">두 명 따로 계산해도 돼요?</div>
+            <div class="audio-roman">Du myeong <b>ttaro</b> gyesanhaedo dwaeyo?</div>
+            <div class="audio-ipa">[tu mjʌŋ t͈a.ɾo kje.san.ɦɛ.do twɛ.jo]</div>
+            <div class="audio-meaning">2人別々にお会計してもいいですか？</div>
+          </div>
+          <button type="button" class="play-btn" onclick="togglePhrase('p0','/audio/split.mp3',this,document.getElementById('card-0'),'再生','再生中')">▶ 再生</button>
+        </article>
+        <article class="audio-card" id="card-1">
+          <div>
+            <div class="audio-tag">ソウル地下鉄 · 連音化 갈아타요</div>
+            <div class="audio-ko">어느 역에서 2호선으로 갈아타요?</div>
+            <div class="audio-roman">Eoneu yeogeseo ihoseoneuro <b>gara</b>tayo?</div>
+            <div class="audio-ipa">[ʌ.nɯ jʌ.ɡe.sʌ i.ɦo.sʌ.nɯ.ɾo ka.ɾa.tʰa.jo]</div>
+            <div class="audio-meaning">どの駅で2号線に乗り換えますか？</div>
+          </div>
+          <button type="button" class="play-btn" onclick="togglePhrase('p1','/audio/transfer.mp3',this,document.getElementById('card-1'),'再生','再生中')">▶ 再生</button>
+        </article>
+        <article class="audio-card" id="card-2">
+          <div>
+            <div class="audio-tag">ホテル受付 · 時刻表現＆濃音化</div>
+            <div class="audio-ko">체크아웃 시간이 몇 시예요?</div>
+            <div class="audio-roman">Chekeuaut sigani <b>myeot ssi</b>yeyo?</div>
+            <div class="audio-ipa">[tɕʰe.kʰɯ.a.ut ɕi.ɡa.ni mjʌt ɕ͈i.je.jo]</div>
+            <div class="audio-meaning">チェックアウトは何時ですか？</div>
+          </div>
+          <button type="button" class="play-btn" onclick="togglePhrase('p2','/audio/checkout.mp3',this,document.getElementById('card-2'),'再生','再生中')">▶ 再生</button>
+        </article>
+        <article class="audio-card" id="card-3">
+          <div>
+            <div class="audio-tag">必須フレーズ · 弱音化 ㅎ</div>
+            <div class="audio-ko">조금만 천천히 말씀해 주세요.</div>
+            <div class="audio-roman">Jogeumman <b>cheoncheoni</b> malsseumhae juseyo.</div>
+            <div class="audio-ipa">[tɕo.ɡɯm.man tɕʰʌn.tɕʰʌ.ni mal.s͈ɯm.ɦɛ tɕu.se.jo]</div>
+            <div class="audio-meaning">もう少しゆっくり話してください。</div>
+          </div>
+          <button type="button" class="play-btn" onclick="togglePhrase('p3','/audio/slowly.mp3',this,document.getElementById('card-3'),'再生','再生中')">▶ 再生</button>
+        </article></div>
+  </section>
+
+  <section id="preview">
+    <div class="sec-head">
+      <div class="badge">実機画面プレビュー · IPHONE 6.9&quot; &amp; IPAD 13&quot;</div>
+      <h2>片手で迷わず読める旅行特化デザイン</h2>
+      <p class="sec-sub">移動中の地下鉄ホームでも見やすい縦型大文字設計。標準・大・特大の3段階フォントサイズと iPad 13インチ大画面に最適化。</p>
+    </div>
+    <div class="gallery-strip">
+        <div class="shot-card">
+          <img src="/images/ja_s01.webp" alt="全15課の学習ルート" loading="lazy" width="640" height="1390">
+          <div class="shot-cap">全15課の学習ルート</div>
+        </div>
+        <div class="shot-card">
+          <img src="/images/ja_s02.webp" alt="12場面の実践音声練習" loading="lazy" width="640" height="1390">
+          <div class="shot-cap">12場面の実践音声練習</div>
+        </div>
+        <div class="shot-card">
+          <img src="/images/ja_s03.webp" alt="現地で使える双方向通訳" loading="lazy" width="640" height="1390">
+          <div class="shot-cap">現地で使える双方向通訳</div>
+        </div>
+        <div class="shot-card">
+          <img src="/images/ja_s04.webp" alt="100本のソウル会話動画" loading="lazy" width="640" height="1390">
+          <div class="shot-cap">100本のソウル会話動画</div>
+        </div>
+        <div class="shot-card">
+          <img src="/images/ja_s05.webp" alt="40文字＆24組聞き分け" loading="lazy" width="640" height="1390">
+          <div class="shot-cap">40文字＆24組聞き分け</div>
+        </div>
+        <div class="shot-card wide">
+          <img src="/images/ja_ipad.webp" alt="iPad 13インチ大画面対応" loading="lazy" width="760" height="1013">
+          <div class="shot-cap">iPad 13インチ大画面対応</div>
+        </div></div>
+  </section>
+
+  <section id="features">
+    <div class="sec-head">
+      <div class="badge">6つの統合モジュール</div>
+      <h2>オフライン対応・これ1つで韓国旅行も安心</h2>
+    </div>
+    <div class="bento">
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">📚</div>
+          <h3>全15課＋文法ドリル18問</h3>
+          <p>ハングルの母音・子音・パッチムから、カフェやサムギョプサル注文、オリーブヤング免税、地下鉄2号線乗り換え、ホテルや緊急対応まで段階的に習得。</p>
+        </article>
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">🎬</div>
+          <h3>ソウル実境会話動画 100本（音声200収録）</h3>
+          <p>5大シチュエーション別の実践動画を収録。ソウル標準IPA音標・ローマ字表記・解説ポイント付きで自然に聞き取れます。</p>
+        </article>
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">💬</div>
+          <h3>12場面の実践ロールプレイ＋フリートーク</h3>
+          <p>現地スタッフの一言からスタートし、画面上のヒントを見ながら声に出して3ステップの会話ミッションをクリア。</p>
+        </article>
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">🗣️</div>
+          <h3>リアルタイム双方向音声通訳（右端タブで即起動）</h3>
+          <p>日本語・英語・中国語 ⇄ 韓国語の音声・テキスト双方向翻訳に対応。店員にそのまま見せる全画面カード表示付き。</p>
+        </article>
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">✍️</div>
+          <h3>ハングル40文字筆順・24組聞き分け・160語SRS</h3>
+          <p>書き順トレースキャンバス、平音・激音・濃音の3系列ブラインド練習、693本のネイティブ音声、文字サイズ3段階調節を内蔵。</p>
+        </article>
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">🔒</div>
+          <h3>ログイン不要・完全オンデバイス設計</h3>
+          <p>広告SDKやトラッキングは一切なし（NSPrivacyTracking = false）。学習データはすべて端末内の UserDefaults のみに保存されます。</p>
+        </article></div>
+  </section>
+
+  <section id="pricing">
+    <div class="sec-head">
+      <div class="badge">月額課金なし · 無料で基礎マスター</div>
+      <h2>基礎は無料。$3.99 一度きりの買い切り</h2>
+      <p class="sec-sub">ハングル40文字と24組聞き分け、1〜3課を無料で試したあと、全100本の動画や通訳無制限が必要になった時点で1回だけ解放できます。</p>
+    </div>
+    <div class="pricing-grid">
+      <article class="price-card">
+        <div>
+          <div class="price-head">
+            <div>
+              <div class="price-tag">KOREANGO 無料プラン</div>
+              <div class="price-title">ずっと無料</div>
+            </div>
+            <div class="price-num">$0</div>
+          </div>
+          <ul class="price-list" style="margin-top:16px;"><li><span class="chk">✓</span><span>全40ハングル一覧＆筆順トレーニングキャンバス</span></li><li><span class="chk">✓</span><span>全24組の平音・激音・濃音 聞き分けドリル</span></li><li><span class="chk">✓</span><span>全160語 SM-2 単語カード＆4種類のクイズ形式</span></li><li><span class="chk">✓</span><span>レッスン1〜3 ＋ 動画10本 ＋ 毎日の音声練習(5回/日)・通訳(8回/日)</span></li></ul>
+        </div>
+        <a class="btn btn-ghost" style="justify-content:center;" href="#features">無料プランの内容を確認 ↑</a>
+      </article>
+      <article class="price-card pro">
+        <div>
+          <div class="price-head">
+            <div>
+              <div class="price-tag">一度きりの買い切り · サブスクなし</div>
+              <div class="price-title">KoreanGo Pro 永久アンロック</div>
+            </div>
+            <div class="price-num">$3.99</div>
+          </div>
+          <ul class="price-list" style="margin-top:16px;"><li><span class="chk">✓</span><span>全15課の旅行実践コースを完全解放（4〜15課）</span></li><li><span class="chk">✓</span><span>全100本のソウル会話動画＆200本のネイティブ録音</span></li><li><span class="chk">✓</span><span>12場面の実践音声練習＆フリートーク回数無制限</span></li><li><span class="chk">✓</span><span>双方向リアルタイム音声通訳を無制限利用（オフライン対応）</span></li></ul>
+        </div>
+        <a class="btn btn-appstore" href="/support?lang=ja"><svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span class="as-copy"><span class="as-sub">iPhone &amp; iPad</span><span class="as-main">App Store 公開準備中</span></span></a>
+      </article>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <img src="/images/icon.webp" alt="KoreanGo" width="64" height="64">
+    <h2>次のソウル旅行は、これ1つで準備完了</h2>
+    <p>iPhone &amp; iPad 対応・登録不要・オフラインでもすぐに韓国語を練習できます。</p>
+    <a class="btn btn-appstore" href="/support?lang=ja"><svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span class="as-copy"><span class="as-sub">iPhone &amp; iPad</span><span class="as-main">App Store 公開準備中</span></span></a>
+  </section>
+</main>
+
+<footer>
+  <div>© 2026 AE Interactive. All rights reserved.</div>
+  <div style="display:flex;gap:16px;flex-wrap:wrap;">
+    <a href="/?lang=ja">KoreanGo</a>
+    
+    <a href="/privacy?lang=ja">プライバシー</a>
+    <a href="/support?lang=ja">サポート</a>
+    <a href="https://appengine.fun" target="_blank" rel="noopener noreferrer">AE Interactive スタジオ</a>
+    <a href="mailto:help@appengine.fun">help@appengine.fun</a>
+  </div>
+</footer>
+<script>
+const audioMap = {};
+let activeKey = null;
+function togglePhrase(key, src, btnEl, cardEl, playLabel, playingLabel) {
+  if (activeKey && activeKey !== key && audioMap[activeKey]) {
+    audioMap[activeKey].audio.pause();
+    audioMap[activeKey].audio.currentTime = 0;
+    audioMap[activeKey].btn.textContent = "▶ " + playLabel;
+    audioMap[activeKey].card.classList.remove("playing");
+  }
+  let item = audioMap[key];
+  if (!item) {
+    const a = new Audio(src);
+    item = { audio: a, btn: btnEl, card: cardEl };
+    a.addEventListener("ended", () => {
+      btnEl.textContent = "▶ " + playLabel;
+      cardEl.classList.remove("playing");
+      if (activeKey === key) activeKey = null;
+    });
+    audioMap[key] = item;
+  }
+  if (!item.audio.paused) {
+    item.audio.pause();
+    item.audio.currentTime = 0;
+    btnEl.textContent = "▶ " + playLabel;
+    cardEl.classList.remove("playing");
+    activeKey = null;
+  } else {
+    item.audio.play();
+    btnEl.textContent = "■ " + playingLabel;
+    cardEl.classList.add("playing");
+    activeKey = key;
+  }
+}
+</script>
+</body>
+</html>
