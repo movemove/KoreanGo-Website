@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build KoreanGo 4-language showcase, /privacy, and /support pages, bundle Cloudflare Worker, and deploy to https://koreango.appengine.fun."""
+"""Build KoreanGo 5-language showcase, /privacy, and /support pages, bundle Cloudflare Worker, and deploy to https://koreango.appengine.fun."""
 from __future__ import annotations
 
 import argparse
@@ -20,8 +20,8 @@ ZONE_ID = "977b0b4fa0ab6e587b8758a04016c5e8"
 SCRIPT_NAME = "koreango-site"
 HOSTNAME = "koreango.appengine.fun"
 ORIGIN = f"https://{HOSTNAME}"
-# Populate once App Store Connect assigns KoreanGo's numeric Apple ID (e.g. "684xxxxxxx")
-APP_STORE_ID = ""
+# Live Apple App Store numeric ID for com.chiangkevin.koreango
+APP_STORE_ID = "6838241626"
 APP_STORE_URL = f"https://apps.apple.com/app/id{APP_STORE_ID}" if APP_STORE_ID else ""
 
 CONTENT = {
@@ -37,7 +37,7 @@ CONTENT = {
         "hero_title": "Speak Real Korean <span>Before Your Flight Lands</span>",
         "hero_sub": "From 40 Hangul Jamo strokes, 24 minimal pair sound drills, and 100 real-life Seoul travel video dialogues to 12-scene Guided Voice Practice and live two-way voice translation—with zero accounts and zero tracking.",
         "status_pill": (
-            "Available Now on App Store · iPhone & iPad · iOS 17+"
+            "Available Now on App Store · iPhone, iPad & iPhone Duo"
             if APP_STORE_URL
             else "Built Native for iPhone & iPad · iOS 17+ · Start Free ($3.99 Optional Pro)"
         ),
@@ -69,7 +69,7 @@ CONTENT = {
             ("📚", "15 Guided Lessons & 18 Grammar Drills", "Progress smoothly from Hangul vowels and batchim rules through café orders, BBQ dining, Olive Young tax refunds, Seoul Metro transfers, hotels, and clinics."),
             ("🎬", "100 Seoul Travel Video Dialogues", "Real-life Korea travel conversations across 5 categories with 200 dual-speaker studio clips, Revised Romanization, Seoul IPA, and cultural notes."),
             ("💬", "12-Scene Guided Voice Practice & Free Talk", "On-device interactive roleplay: Korean staff speaks first, helpful phrase cards stay onscreen while you talk, and you complete 3 real travel tasks."),
-            ("🗣️", "Live Two-Way Voice Translation", "Speak or type between English, Traditional Chinese, Simplified Chinese, or Japanese and Korean—complete with fullscreen show-the-clerk cards."),
+            ("🗣️", "Live Two-Way Voice Translation", "Speak or type between English, Traditional Chinese, Simplified Chinese, Japanese, or Spanish and Korean—complete with fullscreen show-the-clerk cards."),
             ("✍️", "40 Jamo Strokes, 24 Pairs & 160 SRS Flashcards", "Interactive Hangul writing canvas, plain vs. aspirated vs. tense ear drills, 693 studio MP3s, and Standard / Large / Extra Large font scaling."),
             ("🔒", "Zero Sign-In · Local Privacy Only", "No accounts, no ads, and zero third-party SDKs. Study streaks, Jamo mastery, and flashcards stay strictly inside iOS UserDefaults on your device."),
         ],
@@ -129,7 +129,7 @@ CONTENT = {
         "hero_title": "飛抵仁川前，<span>先開口說出道地韓國旅遊會話</span>",
         "hero_sub": "從 40 個韓文字母手寫筆順與 24 組平／激／緊音辨音打底，搭配 100 個首爾實境對話短片、店員主動發問口說模擬與現場雙向語音翻譯——全程免註冊、零廣告。",
         "status_pill": (
-            "App Store 正式上架 · 免費下載體驗 · iPhone 與 iPad"
+            "App Store 正式上架 · 免費下載體驗 · iPhone、iPad 與 iPhone Duo"
             if APP_STORE_URL
             else "專為 iPhone 與 iPad 原生打造 · iOS 17+ · 核心免費暢學"
         ),
@@ -161,7 +161,7 @@ CONTENT = {
             ("📚", "15 堂旅遊路線 ＋ 18 堂文法特訓", "從母音、子音與收尾音（Batchim）起步，涵蓋咖啡烤肉點餐、美妝即時退稅、地鐵 2 號線轉乘、飯店入住與醫院急救。"),
             ("🎬", "100 個首爾旅遊實境對話影片（200 句錄音）", "五大韓國場景×四階段旅遊時間線，完整收錄標準羅馬拼音、全句首爾音標 IPA、語法提示與三語對照。"),
             ("💬", "12 情境實戰互動對話 ＋ 自由對話", "採用裝置端互動引導：先由韓國店員主動提問，錄音練習時畫面貼心保留關鍵句提示，陪你完成 3 關現場任務。"),
-            ("🗣️", "現場雙向即時語音口譯（底部最右一鍵直達）", "支援繁中／簡中／英文／日文 ↔ 韓語即時語音與文字互譯，並附全螢幕「給韓國店員看」特大字卡。"),
+            ("🗣️", "現場雙向即時語音口譯（底部最右一鍵直達）", "支援繁中／簡中／英文／日文／西文 ↔ 韓語即時語音與文字互譯，並附全螢幕「給韓國店員看」特大字卡。"),
             ("✍️", "40 字母筆順畫板、24 組辨音與 160 SRS 單字", "互動筆順描紅、平音／激音／緊音三組對立音盲測、693 支錄音室 MP3 音檔與三段字級切換。"),
             ("🔒", "免登入註冊・100% 本機隱私", "無廣告聯播網、無第三方追蹤碼（NSPrivacyTracking = false），所有進度與單字紀錄僅存於您的裝置本機。"),
         ],
@@ -221,7 +221,7 @@ CONTENT = {
         "hero_title": "落地仁川前，<span>先开口说出地道首尔旅游韩语</span>",
         "hero_sub": "从 40 个韩文字母描红与 24 组平音／送气音／紧音辨音起步，衔接 100 个首尔实景视频、店员主动提问模拟与现场双向实时口译——全程免注册、无广告。",
         "status_pill": (
-            "App Store 正式上线 · 免费下载体验 · iPhone & iPad"
+            "App Store 正式上线 · 免费下载体验 · iPhone、iPad & iPhone Duo"
             if APP_STORE_URL
             else "专为 iPhone & iPad 原生打造 · iOS 17+ · 基础免费学"
         ),
@@ -253,7 +253,7 @@ CONTENT = {
             ("📚", "15 节系统路线 + 18 节语法特训", "从元音、辅音与收音（Batchim）起步，系统覆盖烤肉店点单、美妆即时退税、首尔地铁换乘、酒店入住与看诊求助。"),
             ("🎬", "100 个首尔旅游实景对话视频（200 句音频）", "五大韩国旅游场景按行程阶段编排，包含完整首尔音标 IPA、罗马音、实用语法提示与三语对照。"),
             ("💬", "12 情景实战互动对话 + 自由表达", "采用端侧互动引导：由韩国店员先开口提问，跟读作答时全程保留提示卡片，陪你打通 3 关任务。"),
-            ("🗣️", "双向实时语音翻译（底部栏最右一键直达）", "支持简中／繁中／英语／日语 ↔ 韩语语音与文字即时互译，并附全屏大字卡片方便直接给店员看。"),
+            ("🗣️", "双向实时语音翻译（底部栏最右一键直达）", "支持简中／繁中／英语／日语／西语 ↔ 韩语语音与文字即时互译，并附全屏大字卡片方便直接给店员看。"),
             ("✍️", "40 字母笔顺画板、24 组辨音与 160 SRS 词卡", "交互式书写描红、平音／送气音／紧音盲听分辨、693 句高清词句音频与三档大字体选项。"),
             ("🔒", "免账号登录 · 100% 本地隐私", "零广告、零第三方追踪代码（NSPrivacyTracking = false），学习进度仅保存于您的设备本地。"),
         ],
@@ -313,7 +313,7 @@ CONTENT = {
         "hero_title": "仁川に着く前に、<br><span>そのまま使える韓国語を口に</span>",
         "hero_sub": "ハングル40文字の書き順・平音/激音/濃音の聞き分け24組・ソウル実境動画100本から、12場面ロールプレイとリアルタイム双方向音声通訳まで。アカウント登録も広告も一切なし。",
         "status_pill": (
-            "App Store 配信中 · 無料スタート · iPhone & iPad 対応"
+            "App Store 配信中 · 無料スタート · iPhone・iPad・iPhone Duo 対応"
             if APP_STORE_URL
             else "iPhone & iPad ネイティブ設計 · iOS 17+ · 基礎無料で体験"
         ),
@@ -345,7 +345,7 @@ CONTENT = {
             ("📚", "全15課＋文法ドリル18問", "ハングルの母音・子音・パッチムから、カフェやサムギョプサル注文、オリーブヤング免税、地下鉄2号線乗り換え、ホテルや緊急対応まで段階的に習得。"),
             ("🎬", "ソウル実境会話動画 100本（音声200収録）", "5大シチュエーション別の実践動画を収録。ソウル標準IPA音標・ローマ字表記・解説ポイント付きで自然に聞き取れます。"),
             ("💬", "12場面の実践ロールプレイ＋フリートーク", "現地スタッフの一言からスタートし、画面上のヒントを見ながら声に出して3ステップの会話ミッションをクリア。"),
-            ("🗣️", "リアルタイム双方向音声通訳（右端タブで即起動）", "日本語・英語・中国語 ⇄ 韓国語の音声・テキスト双方向翻訳に対応。店員にそのまま見せる全画面カード表示付き。"),
+            ("🗣️", "リアルタイム双方向音声通訳（右端タブで即起動）", "日本語・英語・中国語・スペイン語 ⇄ 韓国語の音声・テキスト双方向翻訳に対応。店員にそのまま見せる全画面カード表示付き。"),
             ("✍️", "ハングル40文字筆順・24組聞き分け・160語SRS", "書き順トレースキャンバス、平音・激音・濃音の3系列ブラインド練習、693本のネイティブ音声、文字サイズ3段階調節を内蔵。"),
             ("🔒", "ログイン不要・完全オンデバイス設計", "広告SDKやトラッキングは一切なし（NSPrivacyTracking = false）。学習データはすべて端末内の UserDefaults のみに保存されます。"),
         ],
@@ -405,7 +405,7 @@ CONTENT = {
         "hero_title": "Habla Coreano Real<br><span>Antes de Aterrizar en Seúl</span>",
         "hero_sub": "Desde las 40 letras Hangul con trazos y 24 pares mínimos hasta 100 vídeos reales en Corea, Práctica Oral guiada en 12 escenarios e Intérprete Bidireccional en Vivo—sin cuentas ni rastreo.",
         "status_pill": (
-            "Disponible en App Store · Gratis para empezar · iPhone & iPad"
+            "Disponible en App Store · Gratis para empezar · iPhone, iPad e iPhone Duo"
             if APP_STORE_URL
             else "App nativa iPhone & iPad · iOS 17+ · Empieza gratis sin cuenta"
         ),
@@ -865,7 +865,7 @@ def head_html(lang: str, t: dict, title: str, canonical_path: str) -> str:
     smart_banner = f'<meta name="apple-itunes-app" content="app-id={APP_STORE_ID}">\n' if APP_STORE_ID else ""
     alternates = "".join(
         f'<link rel="alternate" hreflang="{code}" href="{ORIGIN}{canonical_path}?lang={code}">\n'
-        for code in ("en", "zh-Hant", "zh-Hans", "ja")
+        for code in ("en", "zh-Hant", "zh-Hans", "ja", "es")
     )
     return f"""<!DOCTYPE html>
 <html lang="{t['html_lang']}">

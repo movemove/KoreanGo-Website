@@ -73,7 +73,7 @@ def build_og_image(icon_img: Image.Image) -> None:
     draw.text((tx_x, 178), "KoreanGo", font=f_title, fill=(255, 255, 255, 255))
     draw.text((tx_x, 276), "100 Seoul Travel Video Dialogues", font=f_sub, fill=(180, 224, 245, 245))
     draw.text((tx_x, 324), "Guided Voice Practice & Live Translation", font=f_sub, fill=(203, 213, 225, 235))
-    draw.text((tx_x, 404), "iPhone  ·  iPad 13\"  |  AE Interactive", font=f_pill, fill=(94, 234, 212, 245))
+    draw.text((tx_x, 404), "iPhone · iPad 13\" · iPhone Duo | AE Interactive", font=f_pill, fill=(94, 234, 212, 245))
 
     canvas.convert("RGB").save(PUB_IMG / "og.png", format="PNG", optimize=True)
 
